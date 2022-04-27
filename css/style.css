@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333533;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+    z-index: 1;
+}
+
+/* Index hero */
+
+.main {
+    display: grid;
+}
+
+.main h1 {
+    margin: 0 auto;
+}
+
+.mainhero .hero img {
+    height: 700px;
+} 
+
+@media only screen and (max-width: 768px) {
+    .mainhero .hero img {
+        height: 600px;
+    }
+}
+
+/* Booking */
+
+.btn {
+    outline: none;
+    border: none;
+    background-color: #f5cb5c;
+    color: #333533;
+}
+
+/* Page loader */
+
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #333533;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+
+.loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+/* Gallery */
+
+.gallery {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.galleryimages {
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.gallery i {
+    color: white;
+    margin: 10px;
+}
+
+.gallery i:hover {
+    color: #f5cb5c;
+}
